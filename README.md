@@ -30,9 +30,13 @@ Files are stored:
 	L2-Learning/block		pox/pox/forwarding/custom.py
 
 ON VIRTUAL MACHINE:
-```cd mininet/custom
-sudo mn --custom custom-topo.py --topo mytopo --controller=remote```
+```
+cd mininet/custom
+sudo mn --custom custom-topo.py --topo mytopo --controller=remote
+```
 
 ON SSH LINE
-```cd pox
-./pox.py forwarding.custom info.packet_dump samples.pretty_log log.level --debug```
+```
+cd pox
+./pox.py forwarding.custom info.packet_dump samples.pretty_log log.level --debug
+```
