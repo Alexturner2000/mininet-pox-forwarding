@@ -4,7 +4,7 @@ Mininet topology and SDN controller software for POX SDN. Uses L2 learning/Forwa
 NOTE that the l2 learning and forwarding is all taken from POX's sample code, but i have modified it to 
 drop packets from H2s MAC address
 
-Topology
+# Topology
 ```
 └───s1
     |
